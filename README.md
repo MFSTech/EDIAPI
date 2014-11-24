@@ -10,7 +10,7 @@ Customers
 
 * [Send Us Shipments](https://github.com/MFSTech/SendUsShipments)
 * [Get Statuses](https://github.com/MFSTech/GetStatuses/)
-* Get Invoices (Documentation Not Yet Available)
+* [Get Invoices](https://github.com/MFSTech/GetInvoices/)
 
 Vendors
 -------
