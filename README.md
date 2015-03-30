@@ -18,3 +18,8 @@ Vendors
 * [Get Shipments](https://github.com/MFSTech/GetShipments/)
 * [Send Statuses](https://github.com/MFSTech/SendStatuses/)
 * [Send Invoices](https://github.com/MFSTech/SendInvoices/)
+
+Code Lists
+----------
+
+* [MFS EDI API Codes](Codes.md)
