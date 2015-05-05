@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+
+<!-- Shipment Example - Ver 013 - 2013-05-22 -->
+
+<!DOCTYPE Shipment SYSTEM "http://EDI.MFSClarity.com/EDI/Cust/Shipment.dtd">
+
+	<Shipment>
+
+		<UserName>ACMEComp</UserName>
+		<Password>CompACME</Password>
+
+		<CustTransmissionID>1111</CustTransmissionID>
+
+		<CustTrackingNum>1234</CustTrackingNum>
+
+		<CustID>ACMEComp</CustID>
+		<BillID>ACMEComp</BillID>
+
+		<MFSID></MFSID>
+		<MFSTextID></MFSTextID>
+
+		<Process></Process>
+
+		<SvcType>R</SvcType>
+		<ReadyDate>2008-08-21</ReadyDate>
+		<DeliverDate>2008-08-21</DeliverDate>
+		<ScheduleDate>2008-08-21</ScheduleDate>
+
+		<ShipmentType>TH</ShipmentType>
+		<ShipmentDirection>Delivery</ShipmentDirection>
+		<WindowBegin>1:00 PM</WindowBegin>
+		<WindowEnd>5:00 PM</WindowEnd>
+
+		<PONum>CustPONum</PONum>
+		<BOLNum>CustBOLNum</BOLNum>
+		<RMANum>CustRMANum</RMANum>
+
+		<SpecInst>Please treat this carefully. It's very important to me. :&gt;</SpecInst>
+		<PkgDesc>This is a really big box.</PkgDesc>
+		<CODType>Check</CODType>
+		<CODAmount>1234.56</CODAmount>
+
+		<ShipID>BBTV</ShipID>
+		<ShipName>Billy Bob's TV Emporium</ShipName>
+		<ShipContact>Billy Bob</ShipContact>
+		<ShipAdd1>1234 Main Street</ShipAdd1>
+		<ShipAdd2>Bldg B</ShipAdd2>
+		<ShipCity>Mendota Heights</ShipCity>
+		<ShipState>MN</ShipState>
+		<ShipZIP>55120</ShipZIP>
+		<ShipRegion></ShipRegion>
+		<ShipCountry>US</ShipCountry>
+		<ShipPhone>651-905-7560</ShipPhone>
+		<ShipFax>555-555-5555</ShipFax>
+		<ShipHome>555-555-5555</ShipHome>
+		<ShipMobile>555-555-5555</ShipMobile>
+		<ShipEmergency>555-555-5555</ShipEmergency>
+		<ShipOther>555-555-5555</ShipOther>
+		<ShipEmail>spam@manna.com</ShipEmail>
+		<ShipLocType>Business</ShipLocType>
+
+		<ConsID></ConsID>
+		<ConsName>Tommy Techno</ConsName>
+		<ConsContact></ConsContact>
+		<ConsAdd1>1234 Elm Street</ConsAdd1>
+		<ConsAdd2></ConsAdd2>
+		<ConsCity>Los Angeles</ConsCity>
+		<ConsState>CA</ConsState>
+		<ConsZIP>90001</ConsZIP>
+		<ConsRegion></ConsRegion>
+		<ConsCountry>US</ConsCountry>
+		<ConsPhone>555-555-5555</ConsPhone>
+		<ConsFax></ConsFax>
+		<ConsHome>555-555-5555</ConsHome>
+		<ConsMobile>555-555-5555</ConsMobile>
+		<ConsEmergency>555-555-5555</ConsEmergency>
+		<ConsOther>555-555-5555</ConsOther>
+		<ConsEmail></ConsEmail>
+		<ConsLocType>Residential</ConsLocType>
+
+		<Piece>
+			<Pieces>5</Pieces>
+			<ProdID>BOXROXPTV60</ProdID>
+			<ProdName>Big Box 60" PTV</ProdName>
+			<ProdDesc></ProdDesc>
+			<ProdType>PDP-060</ProdType>
+			<PieceLength></PieceLength>
+			<PieceWidth></PieceWidth>
+			<PieceHeight></PieceHeight>
+			<PieceWeightActual>120</PieceWeightActual>
+			<PieceDecVal>2000</PieceDecVal>
+			<PiecePrep>Pallet</PiecePrep>
+		</Piece>
+
+		<Piece>
+			<Pieces>5</Pieces>
+			<ProdID>RECEIVER123</ProdID>
+			<ProdName>JVC Receiver 123</ProdName>
+			<ProdDesc></ProdDesc>
+			<ProdType>Receiver</ProdType>
+			<PieceLength>10</PieceLength>
+			<PieceWidth>20</PieceWidth>
+			<PieceHeight>5</PieceHeight>
+			<PieceWeightActual>20</PieceWeightActual>
+			<PieceDecVal>1000</PieceDecVal>
+			<PiecePrep></PiecePrep>
+		</Piece>
+
+		<Piece>
+			<Pieces>1</Pieces>
+			<ProdID></ProdID>
+			<ProdName></ProdName>
+			<ProdDesc>Pallet of 2 Microwaves and Range Hood</ProdDesc>
+			<ProdType>Other</ProdType>
+			<PieceLength>40</PieceLength>
+			<PieceWidth>48</PieceWidth>
+			<PieceHeight>40</PieceHeight>
+			<PieceWeightActual>600</PieceWeightActual>
+			<PieceDecVal>1500</PieceDecVal>
+			<PiecePrep></PiecePrep>
+			<PieceSTC>3</PieceSTC>
+		</Piece>
+
+		<CtrlNum>
+			<CtrlNumType>CustomControlNumber</CtrlNumType>
+			<CtrlNumValue>12345</CtrlNumValue>
+		</CtrlNum>
+
+		<ExtraSvc>
+			<ExtraSvcType>Install</ExtraSvcType>
+			<ExtraSvcValue>1</ExtraSvcValue>
+		</ExtraSvc>
+
+		<ExtraSvc>
+			<ExtraSvcType>Assembly</ExtraSvcType>
+			<ExtraSvcValue>1</ExtraSvcValue>
+		</ExtraSvc>
+
+	</Shipment>

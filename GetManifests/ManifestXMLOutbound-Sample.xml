@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ManifestTransmission>
+	<TransmissionID>
+		781912826
+	</TransmissionID>
+	<TransmissionGeneratedUTC>
+		2007-04-01T13:39:00
+	</TransmissionGeneratedUTC>
+	<TransmissionGeneratedLocal>
+		2007-04-01T08:39:00
+	</TransmissionGeneratedLocal>
+	<Authentication>
+		<UserName>MFSUserName</UserName>
+		<Password>MFSPassword</Password>
+	</Authentication>
+	<Manifest>
+		<ManifestInfo>
+			<ManifestVendorID>
+				ABC123
+			</ManifestVendorID>
+			<ManifestVendorType>
+				Carrier
+			</ManifestVendorType>
+			<ManifestType>
+				MAWB
+			</ManifestType>
+			<ManifestShipType>WR</ManifestShipType>
+			<ManifestShipTypeName>White Glove Assembly and Removal</ManifestShipTypeName>
+			<ManifestShipTypeBilling>White Glove + Assembly + Removal</ManifestShipTypeBilling>
+			<ManifestShipTypeDesc>2-person service plus light assembly required; bring inside to client-specified location, unpack, follow specified assembly instructions and remove requested commodity &amp; dunnage (unless otherwise directed).</ManifestShipTypeDesc>
+			<ManifestSpecInst>Consingee has rabid dog.</ManifestSpecInst>
+		</ManifestInfo>
+		<ManifestControlNumbers>
+			<ManifestID>M1234568</ManifestID>
+			<ManifestTranID>1234568</ManifestTranID>
+			<ManifestSecCode>1234</ManifestSecCode>
+		</ManifestControlNumbers>
+		<ManifestKeyDates>
+			<ManifestReadyDateTime>
+				2007-01-02T14:00:00
+			</ManifestReadyDateTime>
+			<ManifestDeliverDateTime>
+				2007-01-04T16:00:00
+			</ManifestDeliverDateTime>
+			<ManifestScheduleDateTimeStart>
+				2007-01-04T12:00:00
+			</ManifestScheduleDateTimeStart>
+			<ManifestScheduleDateTimeStop>
+				2007-01-04T16:00:00
+			</ManifestScheduleDateTimeStop>
+		</ManifestKeyDates>
+		<ManifestOrigin>
+			<ManifestOriginType>
+				Terminal
+			</ManifestOriginType>
+			<ManifestOriginCode>
+				MSP
+			</ManifestOriginCode>
+			<ManifestOriginName>
+				Local Cartage Company
+			</ManifestOriginName>
+			<ManifestOriginContact>
+				Joe Trucker
+			</ManifestOriginContact>
+			<ManifestOriginPhone>
+				123-456-6890
+			</ManifestOriginPhone>
+			<ManifestOriginFax>
+				123-456-6891
+			</ManifestOriginFax>
+			<ManifestOriginHomePhone>
+				123-456-6892
+			</ManifestOriginHomePhone>
+			<ManifestOriginOtherPhone>
+				123-456-6893
+			</ManifestOriginOtherPhone>
+		</ManifestOrigin>
+		<ManifestDestination>
+			<ManifestDestType>
+				Address
+			</ManifestDestType>
+			<ManifestDestName>
+				XYZ Company
+			</ManifestDestName>
+			<ManifestDestContact>
+				Jane Dandy
+			</ManifestDestContact>
+			<ManifestDestAdd1>
+				4321 Any Avenue
+			</ManifestDestAdd1>
+			<ManifestDestAdd2>
+				Bldg 4444
+			</ManifestDestAdd2>
+			<ManifestDestCity>
+				AnyTown
+			</ManifestDestCity>
+			<ManifestDestState>
+				CA
+			</ManifestDestState>
+			<ManifestDestRegion>
+				
+			</ManifestDestRegion>
+			<ManifestDestZIP>
+				90210
+			</ManifestDestZIP>
+			<ManifestDestCountryCode>
+				US
+			</ManifestDestCountryCode>
+			<ManifestDestLocationType>
+				Residential
+			</ManifestDestLocationType>
+			<ManifestDestPhone>
+				223-456-7890
+			</ManifestDestPhone>
+			<ManifestDestFax>
+				223-456-7891
+			</ManifestDestFax>
+			<ManifestDestHomePhone>
+				223-456-7892
+			</ManifestDestHomePhone>
+			<ManifestDestOtherPhone>
+				223-456-7893
+			</ManifestDestOtherPhone>
+		</ManifestDestination>
+		<ManifestPieceSummary>
+			<ManifestPieceCount>4</ManifestPieceCount>
+			<ManifestWeightActual>370</ManifestWeightActual>
+			<ManifestWeightDimensional>576</ManifestWeightDimensional>
+			<ManifestWeightChargeable>576</ManifestWeightChargeable>
+			<ManifestDecVal>6150</ManifestDecVal>
+		</ManifestPieceSummary>
+		<Shipments>
+			<Shipment>
+				<ControlNumbers>
+					<ShipmentID>H1234567</ShipmentID>
+					<ShipmentTranID>1234567</ShipmentTranID>
+					<Ref>Reference Number Sample</Ref>
+					<PO>PO Number Sample</PO>
+					<RMA>RMA Number Sample</RMA>
+					<SO>SO Number Sample</SO>
+					<ShipperManifest />
+				</ControlNumbers>
+				<Pieces>
+					<Piece>
+						<PieceID>8887212</PieceID>
+						<PieceCount>2</PieceCount>
+						<PieceLength>50</PieceLength>
+						<PieceWidth>20</PieceWidth>
+						<PieceHeight>70</PieceHeight>
+						<PieceWeightActual>150</PieceWeightActual>
+						<PieceDecVal>2000</PieceDecVal>
+						<ProdType>PDP-042</ProdType>
+						<ProdID>TVABCD123</ProdID>
+						<ProdName>Big ABCD TV - 42 Inch Plasma</ProdName>
+					</Piece>
+					<Piece>
+						<PieceID>8887213</PieceID>
+						<PieceCount>1</PieceCount>
+						<PieceLength>10</PieceLength>
+						<PieceWidth>40</PieceWidth>
+						<PieceHeight>5</PieceHeight>
+						<PieceWeightActual>50</PieceWeightActual>
+						<PieceDecVal>150</PieceDecVal>
+						<ProdType>Stand</ProdType>
+						<ProdID>TVABCD123S</ProdID>
+						<ProdName>TV Stand</ProdName>
+					</Piece>
+				</Pieces>
+				<SpecInst>Plan on bringing the stand in first as you'll need to set the TV on that.</SpecInst>
+				<PkgDesc>2 separate pieces banded to one pallet.</PkgDesc>
+			</Shipment>
+			<Shipment>
+				<ControlNumbers>
+					<ShipmentID>H1234569</ShipmentID>
+					<ShipmentTranID>1234569</ShipmentTranID>
+					<Ref>Reference Number Sample 2</Ref>
+					<PO>PO Number Sample 2</PO>
+					<RMA>RMA Number Sample 2</RMA>
+					<SO>SO Number Sample 2</SO>
+				</ControlNumbers>
+				<Pieces>
+					<Piece>
+						<PieceID>8887222</PieceID>
+						<PieceCount>1</PieceCount>
+						<PieceLength>10</PieceLength>
+						<PieceWidth>10</PieceWidth>
+						<PieceHeight>10</PieceHeight>
+						<PieceWeightActual>10</PieceWeightActual>
+						<PieceDecVal>1000</PieceDecVal>
+						<ProdType>Speaker</ProdType>
+						<ProdID>Expensive Small Speaker</ProdID>
+						<ProdName>Expensive Small Speaker with Great Sound 102</ProdName>
+					</Piece>
+				</Pieces>
+				<SpecInst>Be careful when opening box as knife could scratch top of unit.</SpecInst>
+				<PkgDesc>Triple-layer corrugated blue box.</PkgDesc>
+			</Shipment>
+		</Shipments>
+	</Manifest>
+</ManifestTransmission>

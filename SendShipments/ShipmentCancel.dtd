@@ -1,0 +1,27 @@
+<!ELEMENT Shipment (
+
+	UserName,
+	Password,
+
+	CustTransmissionID?,
+
+	CustTrackingNum?,
+
+	MFSID?,
+	MFSTextID?,
+
+	Process
+
+)>
+
+<!ELEMENT UserName (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+
+<!ELEMENT CustTransmissionID (#PCDATA)>
+
+<!ELEMENT CustTrackingNum (#PCDATA)>
+
+<!ELEMENT MFSID (#PCDATA)>
+<!ELEMENT MFSTextID (#PCDATA)>
+
+<!ELEMENT Process (#PCDATA)>

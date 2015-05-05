@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StatusTransmission>
+  <TransmissionID>10535890</TransmissionID>
+  <TransmissionDate>2014-12-31T11:35:35.283-06:00</TransmissionDate>
+  <TransmissionDateUTC>2014-12-31T05:35:35.283Z</TransmissionDateUTC>
+  <Shipment>
+    <ControlNumbers>
+      <TranID>10000000</TranID>
+      <BOL>K10000000</BOL>
+    </ControlNumbers>
+    <Milestone>Exception: Damaged - Refused</Milestone>
+    <ServiceInfo>
+      <ServiceTypeID>R</ServiceTypeID>
+      <ServiceType>Ground</ServiceType>
+      <ShipmentTypeID>WG</ShipmentTypeID>
+      <ShipmentType>White Glove</ShipmentType>
+      <CloseType>Damaged - Refused</CloseType>
+    </ServiceInfo>
+    <Dates>
+      <ETD>2014-10-21T00:00:00</ETD>
+      <ETA>2014-10-29T23:59:00</ETA>
+      <Schedule>2014-10-31T17:00:00</Schedule>
+      <WindowStart>13:00</WindowStart>
+      <WindowStop>17:00</WindowStop>
+      <Closed>2014-11-03T13:54:38</Closed>
+    </Dates>
+    <CurrentStatus>
+      <Status>
+        <StatusID>23333146</StatusID>
+        <StatusType>OutForDel</StatusType>
+        <StatusTypeDesc>Out for Delivery</StatusTypeDesc>
+        <StatusDateTime>2014-10-31T08:49:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Irvine, CA</StatusLocation>
+        <StatusNotes>ar</StatusNotes>
+      </Status>
+    </CurrentStatus>
+    <StatusList>
+      <Status>
+        <StatusID>-1</StatusID>
+        <StatusType>Closure</StatusType>
+        <StatusTypeDesc>Damaged - Refused</StatusTypeDesc>
+        <StatusDateTime>2014-11-03T13:54:40.990</StatusDateTime>
+        <StatusException />
+        <StatusLocation />
+        <StatusNotes />
+      </Status>
+      <Status>
+        <StatusID>23333146</StatusID>
+        <StatusType>OutForDel</StatusType>
+        <StatusTypeDesc>Out for Delivery</StatusTypeDesc>
+        <StatusDateTime>2014-10-31T08:49:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Irvine, CA</StatusLocation>
+        <StatusNotes>ar</StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23333092</StatusID>
+        <StatusType>DelToAgt</StatusType>
+        <StatusTypeDesc>Delivered to Agent</StatusTypeDesc>
+        <StatusDateTime>2014-10-27T12:02:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Los Angeles, CA</StatusLocation>
+        <StatusNotes>(LAX) POD: RAUL MADRIGAL</StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23332222</StatusID>
+        <StatusType>OnHand</StatusType>
+        <StatusTypeDesc>On Hand</StatusTypeDesc>
+        <StatusDateTime>2014-10-26T17:20:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Los Angeles, CA</StatusLocation>
+        <StatusNotes>(LAX) </StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23332599</StatusID>
+        <StatusType>TermArrive</StatusType>
+        <StatusTypeDesc>Terminal Arrival</StatusTypeDesc>
+        <StatusDateTime>2014-10-23T07:59:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Atlanta, GA</StatusLocation>
+        <StatusNotes>(ATL) </StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23331723</StatusID>
+        <StatusType>OnBoard</StatusType>
+        <StatusTypeDesc>On Board</StatusTypeDesc>
+        <StatusDateTime>2014-10-23T04:01:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Charlotte, NC</StatusLocation>
+        <StatusNotes>(CLT) </StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23331602</StatusID>
+        <StatusType>RecByCar</StatusType>
+        <StatusTypeDesc>Received by Carrier</StatusTypeDesc>
+        <StatusDateTime>2014-10-22T22:02:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Charlotte, NC</StatusLocation>
+        <StatusNotes>(CLT) </StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23331077</StatusID>
+        <StatusType>Pickup</StatusType>
+        <StatusTypeDesc>Proof of Pickup</StatusTypeDesc>
+        <StatusDateTime>2014-10-21T17:15:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Taylorsville, NC</StatusLocation>
+        <StatusNotes>mark</StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23330527</StatusID>
+        <StatusType>ODispatch</StatusType>
+        <StatusTypeDesc>Dispatched for Pick-Up</StatusTypeDesc>
+        <StatusDateTime>2014-10-20T16:01:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Taylorsville, NC</StatusLocation>
+        <StatusNotes>Keefe Katharina</StatusNotes>
+      </Status>
+    </StatusList>
+    <ComEvents>
+      <ComEvent>
+        <ComDate>2014-10-21T17:14:57.367</ComDate>
+        <ComType>Email: ScheduleMyDelivery.com Invitation</ComType>
+        <ComNotes>ArgyrosAlbinus@Example.com</ComNotes>
+      </ComEvent>
+      <ComEvent>
+        <ComDate>2014-10-21T19:23:13.090</ComDate>
+        <ComType>Call: Client Accepted Date &amp; Time</ComType>
+        <ComNotes>Scheduled - Client Accepted</ComNotes>
+      </ComEvent>
+      <ComEvent>
+        <ComDate>2014-10-30T07:00:46.450</ComDate>
+        <ComType>Email: Schedule Reminder</ComType>
+        <ComNotes>Sched Reminder Email</ComNotes>
+      </ComEvent>
+    </ComEvents>
+  </Shipment>
+</StatusTransmission>

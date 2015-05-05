@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<ManifestTransmissionResponse>
+		<MFSTransmissionID>
+			781912826
+		</MFSTransmissionID>
+		<VendorTransmissionID>
+			13d133489f
+		</VendorTransmissionID>
+		<ResponseGeneratedUTC>
+			2012-10-18T21:02:17.300Z
+		</ResponseGeneratedUTC>
+		<ResponseGeneratedLocal>
+			2012-10-18T16:02:17.300-05:00
+		</ResponseGeneratedLocal>
+		<VendorManifestControlNumber>
+		</VendorManifestControlNumber>
+		<ErrorID>
+			1234
+		</ErrorID>
+		<ErrorText>
+			Invalid service.
+		</ErrorText>
+	</ManifestTransmissionResponse>

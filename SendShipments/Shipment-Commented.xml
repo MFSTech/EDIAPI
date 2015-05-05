@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+
+<!-- Shipment Example - Ver 013 - 2013-05-22 -->
+
+<!-- Everything encapsulated like this line is a comment. -->
+<!-- The XML declaration above is required. -->
+<!-- See the DTD for specific field requirements. -->
+
+<!DOCTYPE Shipment SYSTEM "http://EDI.MFSClarity.com/EDI/Cust/Shipment.dtd">
+
+<!-- This DOCTYPE reference is not strictly necessary, but if specified you will receive more immediate feedback as to content problems. -->
+
+	<Shipment>
+
+		<UserName>ACMEComp</UserName>
+		<Password>CompACME</Password>
+
+			<!--
+				These fields will be used for authentication in the future.
+					They might correspond to Clarity web site users.
+			-->
+
+		<CustTransmissionID>1111</CustTransmissionID>
+
+			<!--
+				This field may be used to specify a unique information transmission ID.
+				It will be returned with all communication about this transmission.
+			-->
+
+		<CustTrackingNum>1234</CustTrackingNum>
+
+			<!-- 
+				This field may be used to specify a tracking number unique to this shipment.
+				It will be returned with all communication about this shipment
+					(including in response to this initial submission).
+				It cannot currently be used for any tracking other than these electronic
+					transmissions.
+			-->
+
+		<CustID>ACMEComp</CustID>
+		<BillID>ACMEComp</BillID>
+
+			<!-- 
+				The customer ID (CustID) is a textual ID which uniquely identifies you in our system.
+				It must be provided to you by our operations, sales, or technical staff.
+				The bill-to ID (BillID) is a textual ID which uniquely identifies the party which
+					will be billed for this shipment. It also determines which rates to use to
+					estimate the charges for the shipment. You must be authorized to bill to the specified
+					party. It will generally be the same ID as your customer ID.
+			-->
+
+		<MFSID></MFSID>
+		<MFSTextID></MFSTextID>
+
+			<!-- 
+
+				The MFS ID is a our unique numeric identifier for the shipment.
+				This will NEVER be used for new shipments.
+				It might be used for updating shipment information in the future.
+
+				The MFS Text ID is our unique textual identifier for the shipment.
+				This will generally not be used for new shipments except in special circumstances.
+				It might be used for updating shipment information in the future.
+				This is the field by which users can search for shipments from our main web site.
+
+			-->
+
+
+		<Process></Process>
+
+			<!-- 
+				This field is used to control various processing options.
+				For example, it can be used to indicate whether to immediately process a shipment on receipt.
+				Generally, users are required to manually confirm ("process") transmitted orders on our web site.
+				Additional processing flags exist and are detailed in a separate document.
+			-->
+
+		<SvcType>R</SvcType>
+
+			<!-- 
+				Service Type: This must be one of an enumerated list of acceptable services
+					to be provided by our sales, operations, or technical staff.
+				Examples include: R (Ground - Zip Matrix), 1 (Next Day Air)
+			-->
+
+		<ReadyDate>2008-08-21</ReadyDate>
+
+			<!-- 
+				This must be the date the shipment will be ready to pick up from the origin location.
+					It must be prepared by the relevant lock-out time. Contact your salesperson or our
+					operations staff for more details.
+			-->
+
+		<DeliverDate>2008-08-21</DeliverDate>
+
+			<!-- 
+				This might be used in the future to allow the specification of a specific delivery date.
+				At that time, the relevant service type (see above) would be calculated using the ready and deliver dates. Currently, the element is ignored except for Store to Door shipments.
+			-->
+
+		<ScheduleDate>2008-08-21</ScheduleDate>
+
+			<!-- 
+				This usually should not be specified, as we provide a scheduling service. In those cases where shipments are pre-scheduled by a customer, this field would be used to communicate the schedule date.
+			-->
+		<ShipmentType>TH</ShipmentType>
+
+			<!-- 
+				This must be specified by some clients and indicates the type of interaction with your
+					consignee (or perhaps shipper).
+				The values must be part of an enumerated list which will be supplied by our
+					sales, operations, or technical staff.
+				Examples include "WG" for White Glove and "TH" for Threshold.
+			-->
+
+		<ShipmentDirection>Delivery</ShipmentDirection>
+
+			<!-- 
+				This must be used by some clients to indicate whether the shipment interfaces with an end-user
+					on the pick-up or the delivery. The acceptable options are "Pickup" and "Delivery".
+				For example, when retrieving a defective unit from your customer, you would specify "Pickup".
+					When sending a new unit out to your customer, you would specify "Delivery".
+			-->
+
+		<WindowBegin>1:00 PM</WindowBegin>
+		<WindowEnd>5:00 PM</WindowEnd>
+
+			<!-- 
+				These must be used by some clients to indicate the time frame of the pick-up or delivery.
+				This service is not available for all clients.
+			-->
+
+		<PONum>CustPONum</PONum>
+		<BOLNum>CustBOLNum</BOLNum>
+		<RMANum>CustRMANum</RMANum>
+
+			<!-- 
+				These control numbers can be used to track a shipment on our web site
+					or with our operations staff.
+				Generally,
+					PONum is used for the customer's purchase order,
+					BOLNum is used for a bill of lading,
+					and RMANum is used for a returned merchandise authorization number.
+				However, they can generally be used for tracking number the client desires.
+			-->
+
+		<SpecInst>Please treat this carefully. It's very important to me. :&gt;</SpecInst>
+
+			<!-- 
+				Use this field to specify textual instructions about the shipment.
+				These are generally available to our vendors and operations staff.
+				Requests in this area might generate additional charges.
+			-->
+
+		<PkgDesc>This is a really big box.</PkgDesc>
+
+			<!-- 
+				This can be used to provide a textual description of the packaging.
+			-->
+
+		<CODType>Check</CODType>
+		<CODAmount>1234.56</CODAmount>
+
+			<!-- 
+				This can be used to specify an amount for COD (Cash On Delivery),
+					along with what method of payment is acceptable.
+					This payment method type must be one of an enumerated list
+					which will be provided by our sales, operations, or technical staff.
+				There might be an additional fee for this service.
+			-->
+
+		<ShipID>BBTV</ShipID>
+		<ShipName>Billy Bob's TV Emporium</ShipName>
+		<ShipContact>Billy Bob</ShipContact>
+		<ShipAdd1>1234 Main Street</ShipAdd1>
+		<ShipAdd2>Bldg B</ShipAdd2>
+		<ShipCity>Mendota Heights</ShipCity>
+		<ShipState>MN</ShipState>
+		<ShipZIP>55120</ShipZIP>
+		<ShipRegion></ShipRegion>
+		<ShipCountry>US</ShipCountry>
+		<ShipPhone>651-905-7560</ShipPhone>
+		<ShipFax>555-555-5555</ShipFax>
+		<ShipHome>555-555-5555</ShipHome>
+		<ShipMobile>555-555-5555</ShipMobile>
+		<ShipEmergency>555-555-5555</ShipEmergency>
+		<ShipOther>555-555-5555</ShipOther>
+		<ShipEmail>spam@manna.com</ShipEmail>
+		<ShipLocType>Business</ShipLocType>
+
+			<!--
+				This is the address and other information related to the origin of the shipment.
+				The ShipID field may be used for your internal customer tracking numbers or designations.
+					It can also be used as a search field in our web order entry system.
+				The ShipLocType must be one of an enumerated list of location types,
+					which list will be provided by our sales, operations, or technical staff.
+					Examples include "Business" and "Residential".
+				Ship stands for Shipper.
+			-->
+
+		<ConsID></ConsID>
+		<ConsName>Tommy Techno</ConsName>
+		<ConsContact></ConsContact>
+		<ConsAdd1>1234 Elm Street</ConsAdd1>
+		<ConsAdd2></ConsAdd2>
+		<ConsCity>Los Angeles</ConsCity>
+		<ConsState>CA</ConsState>
+		<ConsZIP>90001</ConsZIP>
+		<ConsRegion></ConsRegion>
+		<ConsCountry>US</ConsCountry>
+		<ConsPhone>555-555-5555</ConsPhone>
+		<ConsFax></ConsFax>
+		<ConsHome>555-555-5555</ConsHome>
+		<ConsMobile>555-555-5555</ConsMobile>
+		<ConsEmergency>555-555-5555</ConsEmergency>
+		<ConsOther>555-555-5555</ConsOther>
+		<ConsEmail></ConsEmail>
+		<ConsLocType>Residential</ConsLocType>
+
+			<!--
+				This is the address and other information related to the destination of the shipment.
+				The ConsID field may be used for your internal customer tracking numbers or designations.
+					It can also be used as a search field in our web order entry system.
+				The ConsLocType must be one of an enumerated list of location types,
+					which list will be provided by our sales, operations, or technical staff.
+					Examples include "Business" and "Residential".
+				Cons stands for Consignee.
+			-->
+
+		<Piece>
+			<Pieces>5</Pieces>
+			<ProdID>BOXROXPTV60</ProdID>
+			<ProdName>Big Box 60" PTV</ProdName>
+			<ProdDesc></ProdDesc>
+			<ProdType>PDP-060</ProdType>
+			<PieceLength></PieceLength>
+			<PieceWidth></PieceWidth>
+			<PieceHeight></PieceHeight>
+			<PieceWeightActual>120</PieceWeightActual>
+			<PieceDecVal>2000</PieceDecVal>
+			<PiecePrep>Pallet</PiecePrep>
+		</Piece>
+
+		<Piece>
+			<Pieces>5</Pieces>
+			<ProdID>RECEIVER123</ProdID>
+			<ProdName>JVC Receiver 123</ProdName>
+			<ProdDesc></ProdDesc>
+			<ProdType>Receiver</ProdType>
+			<PieceLength>10</PieceLength>
+			<PieceWidth>20</PieceWidth>
+			<PieceHeight>5</PieceHeight>
+			<PieceWeightActual>20</PieceWeightActual>
+			<PieceDecVal>1000</PieceDecVal>
+			<PiecePrep></PiecePrep>
+		</Piece>
+
+		<Piece>
+			<Pieces>1</Pieces>
+			<ProdID></ProdID>
+			<ProdName></ProdName>
+			<ProdDesc>Pallet of 2 Microwaves and Range Hood</ProdDesc>
+			<ProdType>Other</ProdType>
+			<PieceLength>40</PieceLength>
+			<PieceWidth>48</PieceWidth>
+			<PieceHeight>40</PieceHeight>
+			<PieceWeightActual>600</PieceWeightActual>
+			<PieceDecVal>1500</PieceDecVal>
+			<PiecePrep></PiecePrep>
+			<PieceSTC>3</PieceSTC>
+		</Piece>
+
+			<!--
+
+				Each type of box being shipped should be represented by its own piece line.
+
+				The Pieces, Length, Width, Height, Actual Weight, and Declared Value inputs
+					must be numeric. The length, width, and height fields should be whole numbers
+					representing total inches of each dimension. The Actual Weight must be in pounds.
+					The declared value must be in US Dollars.
+
+				The Pieces field should be a whole number representing the number of boxes
+					of that physical size and weight.
+
+				The Product ID, Name, Description, and Type fields can be specified
+					and will appear on various documents.
+
+				The Product Type must be specified by some customers as it impacts rates and insurance.
+					The product type must be one of an enumerated list which will be provided by our sales,
+					operations, or technical staff.
+					In cases where multiple product types are within the same box, you must specify
+					the most expensive and/or fragile product type.
+					For example, if a plasma TV and a receiver are in the same box, the Product Type for that
+					piece line should be "Plasma TV", not "Receiver".
+
+				The length, width, height, actual weight, and declared value must all be specified
+					PER PIECE (i.e. per box).
+					For example, if there are two plasma TVs per box and each is worth $5000, and there
+					are 5 such boxes, the Pieces field should be "5" and the PieceDecVal field should be "10000".
+
+				PiecePrep should be used to specify any special preparation which the client expects
+					to be performed. Some customers have arranged to have some of their products
+					banded to pallets and are charged accordingly. The value in this field must
+					be one of an enumerated list which will be provided by our sales,
+					operations, or technical staff.
+
+				PieceSTC is short for Piece Said to Contain. For situations where multiple boxes are secured to a pallet,
+					the pallet and its overall dimensions will be considered a single "piece" and will generally be
+					moved as, and charged for as, a single unit. However, it is valuable for us to know the number
+					of identifiable boxes on the pallet to eliminate potential confusion and to assist with
+					producing extra labels in case the boxes become separated.
+
+			-->
+
+		<CtrlNum>
+			<CtrlNumType>CustomControlNumber</CtrlNumType>
+			<CtrlNumValue>12345</CtrlNumValue>
+		</CtrlNum>
+
+			<!--
+
+				These fields will be used in the future to allow clients to specify an extensible
+					list of custom control numbers of various types. It is not currently supported.
+				It is planned that clients will be able to use the web to search for orders based on these
+					control numbers.
+
+			-->
+
+		<ExtraSvc>
+			<ExtraSvcType>Install</ExtraSvcType>
+			<ExtraSvcValue>1</ExtraSvcValue>
+		</ExtraSvc>
+
+		<ExtraSvc>
+			<ExtraSvcType>Assembly</ExtraSvcType>
+			<ExtraSvcValue>1</ExtraSvcValue>
+		</ExtraSvc>
+
+			<!--
+				These fields must be used by some clients to specify optional additional services
+					(such as assembly or installation).
+				The values of the ExtraSvcType field should come from an enumerated list provided
+					by our operations, sales, or technical staff.
+				The value of the ExtraSvcValue field will generally be "1".
+			-->
+
+	</Shipment>

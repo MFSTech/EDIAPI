@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<StatusEntryResponse>
+		<VendorTransmissionID>
+			781912826
+		</VendorTransmissionID>
+		<MFSTransmissionID>
+			3271616819
+		</MFSTransmissionID>
+		<ResponseGeneratedUTC>
+			2012-10-18T21:02:17.300Z
+		</ResponseGeneratedUTC>
+		<ResponseGeneratedLocal>
+			2012-10-18T16:02:17.300-05:00
+		</ResponseGeneratedLocal>
+		<MFSStatusID>
+		</MFSStatusID>
+		<ErrorID>
+			123
+		</ErrorID>
+		<ErrorText>
+			Invalid status type.
+		</ErrorText>
+	</StatusEntryResponse>
