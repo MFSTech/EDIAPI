@@ -8,16 +8,16 @@ You can also follow us on Twitter [@MFSTech](http://twitter.com/MFSTech).
 Customers
 ---------
 
-* [Send Us Shipments](https://github.com/MFSTech/SendUsShipments)
-* [Get Statuses](https://github.com/MFSTech/GetStatuses/)
-* [Get Invoices](https://github.com/MFSTech/GetInvoices/)
+* [Send Us Shipments](../SendShipments)
+* [Get Statuses](../GetStatuses/)
+* [Get Invoices](../GetInvoices/)
 
 Vendors
 -------
 
-* [Get Shipments](https://github.com/MFSTech/GetShipments/)
-* [Send Statuses](https://github.com/MFSTech/SendStatuses/)
-* [Send Invoices](https://github.com/MFSTech/SendInvoices/)
+* [Get Shipments](../GetShipments/)
+* [Send Statuses](../SendStatuses/)
+* [Send Invoices](../SendInvoices/)
 
 Code Lists
 ----------
