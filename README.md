@@ -1,9 +1,8 @@
 EDI API
 =======
 
-General overview for all EDI (Electronic Data Interchange) systems.
-
-You can also follow us on Twitter [@MFSTech](http://twitter.com/MFSTech).
+General overview for all of Manna's EDI (Electronic Data Interchange) systems.
+Follow [@MFSTech](http://twitter.com/MFSTech) on Twitter!
 
 Customers
 ---------
