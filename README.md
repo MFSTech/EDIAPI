@@ -8,7 +8,7 @@ You can also follow us on Twitter [@MFSTech](http://twitter.com/MFSTech).
 Customers
 ---------
 
-* [Send Us Shipments](SendShipments)
+* [Send Shipments](SendShipments)
 * [Get Statuses](GetStatuses/)
 * [Get Invoices](GetInvoices/)
 
