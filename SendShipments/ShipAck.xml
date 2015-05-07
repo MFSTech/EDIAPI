@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+
+	<Response>
+
+		<Status>200</Status>
+
+		<MFSTransmissionID>13239</MFSTransmissionID>
+
+		<ParseError>0</ParseError>
+
+		<ParseErrorText></ParseErrorText>
+
+		<ProcessErrors>2</ProcessErrors>
+
+		<ProcessErrorsText> Ready Date is less than Processing Date. Shipment Type must be selected.</ProcessErrorsText>
+
+		<MFSID>2579859</MFSID>
+
+		<MFSTextID>H2579859</MFSTextID>
+
+		<TotalCharges>0</TotalCharges>
+
+		<LabelCode>f140 O0000 a L PK H20 191100305550015Manna Distribution Services 191100205350015800-394-3949 1a1200004550015*H2579859* 1X0000004470015L370003 111100005200015Ship: 11110000520010009/14/2004 111100005000015Deliver: 11110000500010009/20/2004 111100005400210PO: 111100005400250CustPONum 111100005200210REF: 111100005200250CustBOLNum 111100005000210RMA: 111100005000250CustRMANum 211100003800370BOL: 231100903000370H2579859 211100003800340PIECES: 222100003000340001 + 01 211100002200340OF: 2221000018003405 211100004200320SHIPPER: 211100003300320Billy Bob's TV Emporium 211100003300300Billy Bob 2111000033002801234 Main Street 211100003300260Bldg B 211100003300240Mendota Heights, MN 55120 US 1X0000000300237L002417 211100004200220Cons: 211100003300220Tommy Techno 211100003300200 2111000033001801234 Elm Street 211100003300160Los Angeles, CA 90001 US 211100003300140 292200703500000LAX 201100003900015Please treat this carefully. It's very important to me. :&gt; 201100003900005 111100000010100Adult Signature Required Q0005 E </LabelCode>
+
+		<SecurityCode>1234</SecurityCode>
+
+		<BOLDRLink>http://www.MFSClarity.com/Clarity/Reports/BOLDR.asp?BOL=H2580701&amp;SecCode=4184</BOLDRLink>
+
+		<LabelLink>http://www.MFSClarity.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184</LabelLink>
+
+		<LabelPerPageLink>http://www.MFSClarity.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184&amp;Format=OnePerPage</LabelPerPageLink>
+
+		<LabelPDFLink>http://www.MFSClarity.com/View/LabelPrinting/pdflabel.aspx?tran=2580701&amp;seccode=4184&amp;Color=1</LabelPDFLink>
+
+		<DeliveryAgent>
+			<AgentID>SampleID</AgentID>
+			<AgentName>Sample Agent Name</AgentName>
+			<AgentAdd1>1234 Big Freight Lane</AgentAdd1>
+			<AgentAdd2>Suite 456</AgentAdd2>
+			<AgentCity>Mendota Heights</AgentCity>
+			<AgentStateCode>MN</AgentStateCode>
+			<AgentZip>55120</AgentZip>
+			<AgentCountryCode>US</AgentCountryCode>
+			<AgentPhone>555-555-1999</AgentPhone>
+			<AgentEmail>agentemail@example.com</AgentEmail>
+		</DeliveryAgent>
+
+	</Response>

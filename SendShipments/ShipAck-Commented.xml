@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+
+	<Response>
+
+		<Status>200</Status>
+
+			<!--
+				This represents the success or failure of the transmission.
+				It will also be returned as the HTTP response code.
+
+				400 =
+					XML Parse Error (ParseError field will be Microsoft error number)
+					Invalid Customer Specification (ParseError will be 1)
+				202 =
+					Accepted for Processing (only when NOW process flag is not set)
+				406 =
+					Parsed, but data failed checks. Shipment data violates basic rules.
+						(Often this is due to invalid user or customer information.)
+						(Can only happen when NOW process flag is set)
+				200 =
+					Parsed and saved correctly.
+						(May still contain processing errors. Should be accessible in client Clarity site for manual review, editing, and submission.)
+				500 =
+					Handled Internal Database Error (occurs in a variety of situations; generally shipment is not considered successfully processed)
+					Handled Internal Script Error (occurs in a variety of situations; generally shipment is not considered successfully processed)
+
+				Note that it is possible that unhandled errors may occur, which will result in an HTTP status code of 500 with no reliable acknowledgement XML.
+
+					
+			-->
+
+		<MFSTransmissionID>13239</MFSTransmissionID>
+
+			<!--
+				This represents the unique ID assigned to the original transmission.
+			-->
+
+		<ParseError>0</ParseError>
+
+			<!--
+				This will either be a Microsoft XML parsing error code or other custom number.
+			-->
+
+		<ParseErrorText></ParseErrorText>
+
+			<!--
+				This will describe the parse error which occurred.
+			-->
+
+		<ProcessErrors>2</ProcessErrors>
+
+			<!--
+				This will generally be a count of the errors encountered while attempting to submit the shipment data.
+				This is only relevant when the NOW process flag is set.
+				A shipment which fails processing will still be properly saved and available in Clarity for manual review, editing, and re-submission.
+			-->
+
+		<ProcessErrorsText> Ready Date is less than Processing Date. Shipment Type must be selected.</ProcessErrorsText>
+
+			<!--
+				This is a list of the problems encountered while attempting to submit the shipment data.
+			-->
+
+		<MFSID>2579859</MFSID>
+
+			<!--
+				This is the internal identification number for the shipment.
+			-->
+
+		<MFSTextID>H2579859</MFSTextID>
+
+			<!--
+				This is the external identification number for the shipment. It will generally be based on the internal identification number.
+				This is also known as the shipment tracking number.
+			-->
+
+		<TotalCharges>0</TotalCharges>
+
+			<!--
+				This will be the sum of the total estimated charges for the shipment.
+				These charges, as with the web order entry system, are only estimates. Various issues can arise throughout the course of a shipment which will result in additional charges.
+				For some customers, the rates are unique and not automatically calculated by the system.
+					Often, the total charges for shipments for those customers will appear as 0.
+					However, it is possible that they will simply be erroneous.
+				The same charge automation is used for the web order entry system and the XML system.
+					If the customer is concerned with the validity of the information, the customer should consult with an account manager before relying upon it.
+				This is only relevant when the CHARGES process flag is set.
+			-->
+
+		<LabelCode>f140 O0000 a L PK H20 191100305550015Manna Distribution Services 191100205350015800-394-3949 1a1200004550015*H2579859* 1X0000004470015L370003 111100005200015Ship: 11110000520010009/14/2004 111100005000015Deliver: 11110000500010009/20/2004 111100005400210PO: 111100005400250CustPONum 111100005200210REF: 111100005200250CustBOLNum 111100005000210RMA: 111100005000250CustRMANum 211100003800370BOL: 231100903000370H2579859 211100003800340PIECES: 222100003000340001 + 01 211100002200340OF: 2221000018003405 211100004200320SHIPPER: 211100003300320Billy Bob's TV Emporium 211100003300300Billy Bob 2111000033002801234 Main Street 211100003300260Bldg B 211100003300240Mendota Heights, MN 55120 US 1X0000000300237L002417 211100004200220Cons: 211100003300220Tommy Techno 211100003300200 2111000033001801234 Elm Street 211100003300160Los Angeles, CA 90001 US 211100003300140 292200703500000LAX 201100003900015Please treat this carefully. It's very important to me. :&gt; 201100003900005 111100000010100Adult Signature Required Q0005 E </LabelCode>
+
+			<!--
+				This is the raw code which can be sent directly over a COM port to a compatible serial thermal label printer.
+				Currently, the code will always be formatted for a Datamax printer.
+				This is only relevant when the LABEL process flag is set.
+			-->
+
+		<SecurityCode>1234</SecurityCode>
+
+			<!--
+				This is the security code for the shipment. It is required to access some shipment information via the web.
+			-->
+
+		<BOLDRLink>http://www.MFSClarity.com/Clarity/Reports/BOLDR.asp?BOL=H2580701&amp;SecCode=4184</BOLDRLink>
+
+			<!--
+				This is a URL for the delivery receipt document for the shipment.
+				Note that the URL is properly XML-encoded.
+			-->
+
+		<LabelLink>http://www.MFSClarity.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184</LabelLink>
+
+			<!--
+				This is a URL for a web page designed to be printed on adhesive label paper with a perforation across the middle. A label is produced for each piece on the shipment, with two labels produced per page.
+				Note that the URL is properly XML-encoded.
+			-->
+
+		<LabelPerPageLink>http://www.MFSClarity.com/View/LabelPrinting/?BOL=H2580701&amp;SecCode=4184&amp;Format=OnePerPage</LabelPerPageLink>
+
+			<!--
+				This is a URL for a web page designed to be printed on adhesive label paper with a perforation across the middle. A label is produced for each piece on the shipment, with one label per page.
+				Note that the URL is properly XML-encoded.
+			-->
+
+		<LabelPDFLink>http://www.MFSClarity.com/View/LabelPrinting/pdflabel.aspx?tran=2580701&amp;seccode=4184&amp;Color=1</LabelPDFLink>
+
+			<!--
+				This is a URL for a web page which produces a PDF document sized approximately 4 by 6 inches. It is designed to be printed on a 4 by 6 inch adhesive label produced by common thermal label printers.
+				Note that the URL is properly XML-encoded.
+			-->
+
+		<DeliveryAgent>
+			<AgentID>SampleID</AgentID>
+			<AgentName>Sample Agent Name</AgentName>
+			<AgentAdd1>1234 Big Freight Lane</AgentAdd1>
+			<AgentAdd2>Suite 456</AgentAdd2>
+			<AgentCity>Mendota Heights</AgentCity>
+			<AgentStateCode>MN</AgentStateCode>
+			<AgentZip>55120</AgentZip>
+			<AgentCountryCode>US</AgentCountryCode>
+			<AgentPhone>555-555-1999</AgentPhone>
+			<AgentEmail>agentemail@example.com</AgentEmail>
+		</DeliveryAgent>
+
+			<!--
+				This agent information is only present when the DELAGENT process flag is set. It is intended for use with Last Mile programs where the customer drops freight at our destination provider.
+				This is the address and contact information for the agent which will accept the delivery from the customer's carrier. It is usually the agent who will perform the final delivery.
+				Very loose validation rules are applied to the information, so do not rely on certain formats for phone number or email.
+			-->
+
+	</Response>

@@ -1,0 +1,41 @@
+<!ELEMENT Shipment (
+
+	UserName?,
+	Password?,
+
+	CustTransmissionID?,
+
+	CustTrackingNum?,
+
+	MFSID?,
+	MFSTextID?,
+
+	Process?,
+
+	CarrierID?,
+	CarrierName?,
+	CarrierETD?,
+	CarrierTransitDays?,
+	CarrierETA?,
+	CarrierTracking?
+
+)>
+
+<!ELEMENT UserName (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+
+<!ELEMENT CustTransmissionID (#PCDATA)>
+
+<!ELEMENT CustTrackingNum (#PCDATA)>
+
+<!ELEMENT MFSID (#PCDATA)>
+<!ELEMENT MFSTextID (#PCDATA)>
+
+<!ELEMENT Process (#PCDATA)>
+
+<!ELEMENT CarrierID (#PCDATA)>
+<!ELEMENT CarrierName (#PCDATA)>
+<!ELEMENT CarrierETD (#PCDATA)>
+<!ELEMENT CarrierTransitDays (#PCDATA)>
+<!ELEMENT CarrierETA (#PCDATA)>
+<!ELEMENT CarrierTracking (#PCDATA)>

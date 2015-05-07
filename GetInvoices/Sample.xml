@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+	<TransmissionInfo>
+		<TransmissionID>781912826</TransmissionID>
+		<TransmissionGenerated>2007-01-04T10:23:11-06:00</TransmissionGenerated>
+		<TransmissionGeneratedUTC>2007-01-04T16:23:11Z</TransmissionGeneratedUTC>
+		<Authentication>
+			<UserName>Clarity2UserName</UserName>
+			<PasswordHash>0xC8CCDC91AB2DF9EC8D449E987E727CB8A67E1330</PasswordHash>
+		</Authentication>
+	</TransmissionInfo>
+	<InvoiceInfo>
+		<InvoiceTransID>6543210</InvoiceTransID>
+		<InvoiceID>0123456IN</InvoiceID>
+		<InvoiceDate>2013-04-04T17:00:00</InvoiceDate>
+		<InvoiceCustID>CustID</InvoiceCustID>
+		<InvoiceCustName>Customer Name</InvoiceCustName>
+		<InvoiceSummary>
+			<InvoiceShipments>1</InvoiceShipments>
+			<InvoicePieces>3</InvoicePieces>
+			<InvoiceWeightChargeable>426</InvoiceWeightChargeable>
+			<InvoiceCharges>553.80</InvoiceCharges>
+		</InvoiceSummary>
+		<Shipments>
+			<Shipment>
+				<ControlNumbers>
+					<TranID>1234567</TranID>
+					<BOL>H1234567</BOL>
+					<Ref>RefNum</Ref>
+					<PO>PONum</PO>
+					<RMA>RMANum</RMA>
+					<SO>SONum</SO>
+					<Invoice>0123456IN</Invoice>
+					<CustomCtrlNums>
+						<CtrlNum>
+							<CtrlNumType>CustomControlNumber</CtrlNumType>
+							<CtrlNumValue>12345</CtrlNumValue>
+						</CtrlNum>
+					</CustomCtrlNums>
+				</ControlNumbers>
+				<Milestone>Acknowledged</Milestone>
+				<ServiceInfo>
+					<ServiceTypeID>R</ServiceTypeID>
+					<ServiceType>Ground</ServiceType>
+					<ShipmentTypeID>WG</ShipmentTypeID>
+					<ShipmentType>White Glove</ShipmentType>
+					<CloseType/>
+				</ServiceInfo>
+				<Parties>
+					<Shipper>
+						<Name>Test Shipper</Name>
+						<ID>TestShip1</ID>
+						<Email>ShipperEmail@example.com</Email>
+						<Address>
+							<BusinessName>Test Shipper</BusinessName>
+							<ContactName>Test Shipper Contact</ContactName>
+							<Add1>123 Main Street</Add1>
+							<Add2/>
+							<City>Mendota Heights</City>
+							<State>MN</State>
+							<Region/>
+							<ZIP>55120</ZIP>
+							<CountryCode>US</CountryCode>
+						</Address>
+						<Phones>
+							<Main>651-994-7500</Main>
+							<Mobile/>
+							<Home/>
+							<Other/>
+							<Pager/>
+							<Fax/>
+						</Phones>
+					</Shipper>
+					<Consignee>
+						<Name>Test Consignee</Name>
+						<ID>TestCons1</ID>
+						<Email>ConsigneeEmail@example.com</Email>
+						<Address>
+							<BusinessName>Test Consginee</BusinessName>
+							<ContactName>Test Consignee Contact</ContactName>
+							<Add1>555 Any Street</Add1>
+							<Add2/>
+							<City>Eagan</City>
+							<State>MN</State>
+							<Region/>
+							<ZIP>55123</ZIP>
+							<CountryCode>US</CountryCode>
+						</Address>
+						<Phones>
+							<Main>651-905-7560</Main>
+							<Mobile/>
+							<Home/>
+							<Other/>
+							<Pager/>
+							<Fax/>
+						</Phones>
+					</Consignee>
+					<BillTo>
+						<Name>ABC Shipper</Name>
+						<ID>ABCCO</ID>
+						<Email>ABCShipper@example.com</Email>
+						<Address>
+							<BusinessName>ABC Shipper, Inc.</BusinessName>
+							<ContactName>Jane Doe</ContactName>
+							<Add1>900 9th Avenue</Add1>
+							<Add2/>
+							<City>Los Angeles</City>
+							<State>CA</State>
+							<Region/>
+							<ZIP>90210</ZIP>
+							<CountryCode>US</CountryCode>
+						</Address>
+						<Phones>
+							<Main>555-123-4567</Main>
+							<Mobile/>
+							<Home/>
+							<Other/>
+							<Pager/>
+							<Fax/>
+						</Phones>
+					</BillTo>
+					<Controller>
+						<Name>ABC Shipper</Name>
+						<ID>ABCCO</ID>
+						<Email>ABCShipper@example.com</Email>
+						<Address>
+							<BusinessName>ABC Shipper, Inc.</BusinessName>
+							<ContactName>Jane Doe</ContactName>
+							<Add1>900 9th Avenue</Add1>
+							<Add2/>
+							<City>Los Angeles</City>
+							<State>CA</State>
+							<Region/>
+							<ZIP>90210</ZIP>
+							<CountryCode>US</CountryCode>
+						</Address>
+						<Phones>
+							<Main>555-123-4567</Main>
+							<Mobile/>
+							<Home/>
+							<Other/>
+							<Pager/>
+							<Fax/>
+						</Phones>
+					</Controller>
+				</Parties>
+				<Dates>
+					<ETD>2013-04-01T00:00:00</ETD>
+					<ETA>2013-04-04T23:59:00</ETA>
+					<Schedule/>
+					<WindowStart/>
+					<WindowStop/>
+					<Invoice>2013-04-04T17:00:00</Invoice>
+					<Closed/>
+				</Dates>
+				<Airports>
+					<Origin>MSP</Origin>
+					<Destination>MSP</Destination>
+				</Airports>
+				<Pieces>
+					<Piece>
+						<PieceID>2975663</PieceID>
+						<PieceCount>2</PieceCount>
+						<PieceLength>29</PieceLength>
+						<PieceWidth>35</PieceWidth>
+						<PieceHeight>36</PieceHeight>
+						<PieceWeightActual>116.0000</PieceWeightActual>
+						<PieceWeightDimensional>146.1600</PieceWeightDimensional>
+						<PieceDeclaredValue>0.00</PieceDeclaredValue>
+						<ProdType/>
+						<ProdID>ProdABC</ProdID>
+						<ProdName>ABC Big Box</ProdName>
+					</Piece>
+					<Piece>
+						<PieceID>2975664</PieceID>
+						<PieceCount>1</PieceCount>
+						<PieceLength>36</PieceLength>
+						<PieceWidth>29</PieceWidth>
+						<PieceHeight>32</PieceHeight>
+						<PieceWeightActual>94.0000</PieceWeightActual>
+						<PieceWeightDimensional>133.6320</PieceWeightDimensional>
+						<PieceDeclaredValue>0.00</PieceDeclaredValue>
+						<ProdType/>
+						<ProdID>ProdCDE</ProdID>
+						<ProdName>CDE Different Big Box</ProdName>
+					</Piece>
+				</Pieces>
+				<PieceSummary>
+					<PieceCount>3</PieceCount>
+					<WeightActual>326</WeightActual>
+					<WeightDimensional>426</WeightDimensional>
+					<WeightChargeable>326</WeightChargeable>
+				</PieceSummary>
+				<Activities>
+					<Activity>
+						<ActivityTypeNumber>100</ActivityTypeNumber>
+						<ActivityTypeID>INSH</ActivityTypeID>
+						<ActivityTypeName>Inserted</ActivityTypeName>
+						<ActivityDate>2013-04-01T10:47:31.093</ActivityDate>
+						<ActivityNote/>
+					</Activity>
+					<Activity>
+						<ActivityTypeNumber>120</ActivityTypeNumber>
+						<ActivityTypeID>CLUP</ActivityTypeID>
+						<ActivityTypeName>Clarity Update</ActivityTypeName>
+						<ActivityDate>2013-04-01T10:50:22.167</ActivityDate>
+					</Activity>
+				</Activities>
+				<Exceptions>
+					<Exception>
+						<ExceptionTypeID>1030</ExceptionTypeID>
+						<ExceptionTypeName>Service Issue - Home</ExceptionTypeName>
+						<ExceptionDate>2013-04-04T08:52:58</ExceptionDate>
+						<ExceptionNote>Dog bit driver.</ExceptionNote>
+					</Exception>
+				</Exceptions>
+				<Charges>
+					<Charge>
+						<ChargeID>63438902</ChargeID>
+						<ChargeTypeID>A1</ChargeTypeID>
+						<ChargeTypeName>Freight Charge</ChargeTypeName>
+						<ChargeCategory>Freight</ChargeCategory>
+						<ChargeTypeFactorID>S</ChargeTypeFactorID>
+						<ChargeTypeFactorName>System</ChargeTypeFactorName>
+						<ChargeRate>100.0000</ChargeRate>
+						<ChargeValue>426.0000</ChargeValue>
+						<ChargeMin>100.0000</ChargeMin>
+						<ChargeAmount>426.00</ChargeAmount>
+					</Charge>
+					<Charge>
+						<ChargeID>63438903</ChargeID>
+						<ChargeTypeID>C022</ChargeTypeID>
+						<ChargeTypeName>Fuel Surcharge</ChargeTypeName>
+						<ChargeCategory></ChargeCategory>
+						<ChargeTypeFactorID>U</ChargeTypeFactorID>
+						<ChargeTypeFactorName>Fuel Sensitive</ChargeTypeFactorName>
+						<ChargeRate>0.3000</ChargeRate>
+						<ChargeValue>426.0000</ChargeValue>
+						<ChargeMin>0.0000</ChargeMin>
+						<ChargeAmount>127.80</ChargeAmount>
+					</Charge>
+				</Charges>
+				<ChargesSummary>
+					<Freight>426.00</Freight>
+					<Fuel>127.80</Fuel>
+					<Insurance>0.00</Insurance>
+					<Transport>0.00</Transport>
+					<Delivery>0.00</Delivery>
+					<Service>0.00</Service>
+					<Other>0.00</Other>
+					<TotalCharges>553.80</TotalCharges>
+				</ChargesSummary>
+				<TextInfo>
+					<SpecialInstructions>Test special instructions.</SpecialInstructions>
+				</TextInfo>
+			</Shipment>
+		</Shipments>
+	</InvoiceInfo>
+</Invoice>

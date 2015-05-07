@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!-- Shipment Customer Carrier Information Update Example - Ver 002 - 2013-05-22 -->
+
+<!DOCTYPE Shipment SYSTEM "http://EDI.MFSClarity.com/EDI/Cust/ShipmentCarrierUpdate.dtd">
+
+	<Shipment>
+
+		<UserName>ACMEComp</UserName>
+		<Password>CompACME</Password>
+		<MFSID></MFSID>
+		<MFSTextID>H1234568</MFSTextID>
+		<CarrierID>UPS</CarrierID>
+		<CarrierName>United Parcel Service</CarrierName>
+		<CarrierETD>3/29/2010</CarrierETD>
+		<CarrierTransitDays>5</CarrierTransitDays>
+		<CarrierETA></CarrierETA>
+		<CarrierTracking>1Z1112345</CarrierTracking>
+		<Process>NOW+CUSTCARRIER</Process>
+
+	</Shipment>

@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StatusTransmission>
+  <TransmissionID>10535890</TransmissionID>
+  <TransmissionDate>2014-12-31T11:22:50.047-06:00</TransmissionDate>
+  <TransmissionDateUTC>2014-12-31T05:22:50.047Z</TransmissionDateUTC>
+  <Shipment>
+    <ControlNumbers>
+      <TranID>10000000</TranID>
+      <BOL>K10000000</BOL>
+      <Ref>RefNum</Ref>
+      <PO>PONum</PO>
+      <RMA>RMANum</RMA>
+      <SO>SONum</SO>
+      <Invoice>0855573IN</Invoice>
+    </ControlNumbers>
+    <Milestone>Exception: Damaged - Refused</Milestone>
+    <ServiceInfo>
+      <ServiceTypeID>R</ServiceTypeID>
+      <ServiceType>Ground</ServiceType>
+      <ShipmentTypeID>WG</ShipmentTypeID>
+      <ShipmentType>White Glove</ShipmentType>
+      <CloseType>Damaged - Refused</CloseType>
+    </ServiceInfo>
+    <Parties>
+      <Shipper>
+        <Name>Sample Shipper</Name>
+        <ID>SampleShipper123</ID>
+        <Email>Shipper@Example.com</Email>
+        <Address>
+          <BusinessName>Sample Shipper</BusinessName>
+          <ContactName>Gotama Gregor</ContactName>
+          <Add1>1760 Easy Autumn Maze</Add1>
+          <Add2 />
+          <City>Taylorsville</City>
+          <State>NC</State>
+          <Region />
+          <ZIP>28681</ZIP>
+          <CountryCode>US</CountryCode>
+        </Address>
+        <Phones>
+          <Main>(828) 555-5555</Main>
+          <Mobile />
+          <Home />
+          <Other />
+          <Pager />
+          <Fax />
+        </Phones>
+      </Shipper>
+      <Consignee>
+        <Name>Argyros Albinus</Name>
+        <ID>ArgyrosAlbinus</ID>
+        <Email>ArgyrosAlbinus@Example.com</Email>
+        <Address>
+          <BusinessName>Argyros Albinus</BusinessName>
+          <ContactName />
+          <Add1>9893 Gentle Dale Alley</Add1>
+          <Add2 />
+          <City>Irvine</City>
+          <State>CA</State>
+          <Region />
+          <ZIP>92603</ZIP>
+          <CountryCode>US</CountryCode>
+        </Address>
+        <Phones>
+          <Main>310-555-5555</Main>
+          <Mobile></Mobile>
+          <Home />
+          <Other />
+          <Pager />
+          <Fax />
+        </Phones>
+      </Consignee>
+      <BillTo>
+        <Name>Sample Customer</Name>
+        <ID>SampleCust</ID>
+        <Email>SampleCustomer@Example.com</Email>
+        <Address>
+          <BusinessName>Sample Customer</BusinessName>
+          <ContactName>Customer Service</ContactName>
+          <Add1>5727 Wishing Butterfly Run</Add1>
+          <Add2></Add2>
+          <City>Wilberforce</City>
+          <State>AZ</State>
+          <Region />
+          <ZIP>86527-2489</ZIP>
+          <CountryCode>US</CountryCode>
+        </Address>
+        <Phones>
+          <Main>(520) 020-5767</Main>
+          <Mobile />
+          <Home />
+          <Other />
+          <Pager />
+          <Fax />
+        </Phones>
+      </BillTo>
+      <Controller>
+        <Name>Sample Customer</Name>
+        <ID>SampleCust</ID>
+        <Email>SampleCustomer@Example.com</Email>
+        <Address>
+          <BusinessName>Sample Customer</BusinessName>
+          <ContactName>Customer Service</ContactName>
+          <Add1>5727 Wishing Butterfly Run</Add1>
+          <Add2></Add2>
+          <City>Wilberforce</City>
+          <State>AZ</State>
+          <Region />
+          <ZIP>86527-2489</ZIP>
+          <CountryCode>US</CountryCode>
+        </Address>
+        <Phones>
+          <Main>(520) 020-5767</Main>
+          <Mobile />
+          <Home />
+          <Other />
+          <Pager />
+          <Fax />
+        </Phones>
+      </Controller>
+    </Parties>
+    <Dates>
+      <ETD>2014-10-21T00:00:00</ETD>
+      <ETA>2014-10-29T23:59:00</ETA>
+      <Schedule>2014-10-31T17:00:00</Schedule>
+      <WindowStart>13:00</WindowStart>
+      <WindowStop>17:00</WindowStop>
+      <Invoice>2014-11-10T00:00:00</Invoice>
+      <Closed>2014-11-03T13:54:38</Closed>
+    </Dates>
+    <Airports>
+      <Origin>CLT</Origin>
+      <Destination>LAX</Destination>
+    </Airports>
+    <Pieces>
+      <Piece>
+        <PieceID>3555436</PieceID>
+        <PieceCount>1</PieceCount>
+        <PieceLength>30</PieceLength>
+        <PieceWidth>30</PieceWidth>
+        <PieceHeight>25</PieceHeight>
+        <PieceWeightActual>40.0000</PieceWeightActual>
+        <PieceWeightDimensional>90.0000</PieceWeightDimensional>
+        <PieceDeclaredValue>500.00</PieceDeclaredValue>
+        <ProdType />
+        <ProdID>ABC123</ProdID>
+        <ProdName>Fancy Ottoman</ProdName>
+      </Piece>
+      <Piece>
+        <PieceID>3555437</PieceID>
+        <PieceCount>2</PieceCount>
+        <PieceLength>40</PieceLength>
+        <PieceWidth>40</PieceWidth>
+        <PieceHeight>45</PieceHeight>
+        <PieceWeightActual>60.0000</PieceWeightActual>
+        <PieceWeightDimensional>288.0000</PieceWeightDimensional>
+        <PieceDeclaredValue>1000.00</PieceDeclaredValue>
+        <ProdType />
+        <ProdID>CDE123</ProdID>
+        <ProdName>Fancy Chair</ProdName>
+      </Piece>
+      <Piece>
+        <PieceID>3555438</PieceID>
+        <PieceCount>1</PieceCount>
+        <PieceLength>85</PieceLength>
+        <PieceWidth>42</PieceWidth>
+        <PieceHeight>38</PieceHeight>
+        <PieceWeightActual>200.0000</PieceWeightActual>
+        <PieceWeightDimensional>542.6400</PieceWeightDimensional>
+        <PieceDeclaredValue>2000.00</PieceDeclaredValue>
+        <ProdType />
+        <ProdID>HIJ123</ProdID>
+        <ProdName>Fancy Sofa</ProdName>
+      </Piece>
+    </Pieces>
+    <PieceSummary>
+      <PieceCount>4</PieceCount>
+      <WeightActual>360</WeightActual>
+      <WeightDimensional>1209</WeightDimensional>
+      <WeightChargeable>360</WeightChargeable>
+    </PieceSummary>
+    <CurrentStatus>
+      <Status>
+        <StatusID>23333146</StatusID>
+        <StatusType>OutForDel</StatusType>
+        <StatusTypeDesc>Out for Delivery</StatusTypeDesc>
+        <StatusDateTime>2014-10-31T08:49:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Irvine, CA</StatusLocation>
+        <StatusNotes>ar</StatusNotes>
+      </Status>
+    </CurrentStatus>
+    <StatusList>
+      <Status>
+        <StatusID>-1</StatusID>
+        <StatusType>Closure</StatusType>
+        <StatusTypeDesc>Damaged - Refused</StatusTypeDesc>
+        <StatusDateTime>2014-11-03T13:54:40.990</StatusDateTime>
+        <StatusException />
+        <StatusLocation />
+        <StatusNotes />
+      </Status>
+      <Status>
+        <StatusID>23333146</StatusID>
+        <StatusType>OutForDel</StatusType>
+        <StatusTypeDesc>Out for Delivery</StatusTypeDesc>
+        <StatusDateTime>2014-10-31T08:49:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Irvine, CA</StatusLocation>
+        <StatusNotes>ar</StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23333092</StatusID>
+        <StatusType>DelToAgt</StatusType>
+        <StatusTypeDesc>Delivered to Agent</StatusTypeDesc>
+        <StatusDateTime>2014-10-27T12:02:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Los Angeles, CA</StatusLocation>
+        <StatusNotes>(LAX) POD: Iser Evander</StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23332222</StatusID>
+        <StatusType>OnHand</StatusType>
+        <StatusTypeDesc>On Hand</StatusTypeDesc>
+        <StatusDateTime>2014-10-26T17:20:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Los Angeles, CA</StatusLocation>
+        <StatusNotes>(LAX) </StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23332599</StatusID>
+        <StatusType>TermArrive</StatusType>
+        <StatusTypeDesc>Terminal Arrival</StatusTypeDesc>
+        <StatusDateTime>2014-10-23T07:59:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Atlanta, GA</StatusLocation>
+        <StatusNotes>(ATL) </StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23331723</StatusID>
+        <StatusType>OnBoard</StatusType>
+        <StatusTypeDesc>On Board</StatusTypeDesc>
+        <StatusDateTime>2014-10-23T04:01:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Charlotte, NC</StatusLocation>
+        <StatusNotes>(CLT) </StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23331602</StatusID>
+        <StatusType>RecByCar</StatusType>
+        <StatusTypeDesc>Received by Carrier</StatusTypeDesc>
+        <StatusDateTime>2014-10-22T22:02:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Charlotte, NC</StatusLocation>
+        <StatusNotes>(CLT) </StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23331077</StatusID>
+        <StatusType>Pickup</StatusType>
+        <StatusTypeDesc>Proof of Pickup</StatusTypeDesc>
+        <StatusDateTime>2014-10-21T17:15:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Taylorsville, NC</StatusLocation>
+        <StatusNotes>mark</StatusNotes>
+      </Status>
+      <Status>
+        <StatusID>23330527</StatusID>
+        <StatusType>ODispatch</StatusType>
+        <StatusTypeDesc>Dispatched for Pick-Up</StatusTypeDesc>
+        <StatusDateTime>2014-10-20T16:01:00</StatusDateTime>
+        <StatusException />
+        <StatusLocation>Taylorsville, NC</StatusLocation>
+        <StatusNotes>Keefe Katharina</StatusNotes>
+      </Status>
+    </StatusList>
+    <ComEvents>
+      <ComEvent>
+        <ComDate>2014-10-21T17:14:57.367</ComDate>
+        <ComType>Email: ScheduleMyDelivery.com Invitation</ComType>
+        <ComNotes>ArgyrosAlbinus@Example.com</ComNotes>
+      </ComEvent>
+      <ComEvent>
+        <ComDate>2014-10-21T19:23:13.090</ComDate>
+        <ComType>Call: Client Accepted Date &amp; Time</ComType>
+        <ComNotes>Scheduled - Client Accepted</ComNotes>
+      </ComEvent>
+      <ComEvent>
+        <ComDate>2014-10-30T07:00:46.450</ComDate>
+        <ComType>Email: Schedule Reminder</ComType>
+        <ComNotes>Sched Reminder Email</ComNotes>
+      </ComEvent>
+    </ComEvents>
+    <Activities>
+      <Activity>
+        <ActivityTypeNumber>100</ActivityTypeNumber>
+        <ActivityTypeID>INSH</ActivityTypeID>
+        <ActivityTypeName>Inserted</ActivityTypeName>
+        <ActivityDate>2014-09-17T13:18:12.613</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>200</ActivityTypeNumber>
+        <ActivityTypeID>CP</ActivityTypeID>
+        <ActivityTypeName>Customer Processed</ActivityTypeName>
+        <ActivityDate>2014-09-17T13:18:13.303</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>300</ActivityTypeNumber>
+        <ActivityTypeID>CONP</ActivityTypeID>
+        <ActivityTypeName>Consolidated to Pick-Up Manifest</ActivityTypeName>
+        <ActivityDate>2014-10-20T15:42:18.740</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>400</ActivityTypeNumber>
+        <ActivityTypeID>CONM</ActivityTypeID>
+        <ActivityTypeName>Consolidated to MAWB</ActivityTypeName>
+        <ActivityDate>2014-10-20T15:50:35.727</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>600</ActivityTypeNumber>
+        <ActivityTypeID>CONSD</ActivityTypeID>
+        <ActivityTypeName>Consolidated to Delivery Manifest</ActivityTypeName>
+        <ActivityDate>2014-10-20T15:50:33.640</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>820</ActivityTypeNumber>
+        <ActivityTypeID>RVLCK</ActivityTypeID>
+        <ActivityTypeName>Rate Value Lock</ActivityTypeName>
+        <ActivityDate>2014-12-09T13:23:17.637</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>820</ActivityTypeNumber>
+        <ActivityTypeID>RVLCK</ActivityTypeID>
+        <ActivityTypeName>Rate Value Lock</ActivityTypeName>
+        <ActivityDate>2014-12-09T13:23:17.883</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>820</ActivityTypeNumber>
+        <ActivityTypeID>RVLCK</ActivityTypeID>
+        <ActivityTypeName>Rate Value Lock</ActivityTypeName>
+        <ActivityDate>2014-12-09T13:23:17.990</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>845</ActivityTypeNumber>
+        <ActivityTypeID>STIC</ActivityTypeID>
+        <ActivityTypeName>Shipment Type Info Saved</ActivityTypeName>
+        <ActivityDate>2014-10-21T19:23:13.180</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>845</ActivityTypeNumber>
+        <ActivityTypeID>STIC</ActivityTypeID>
+        <ActivityTypeName>Shipment Type Info Saved</ActivityTypeName>
+        <ActivityDate>2014-10-30T18:53:18.690</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>850</ActivityTypeNumber>
+        <ActivityTypeID>INV</ActivityTypeID>
+        <ActivityTypeName>Customer Invoiced</ActivityTypeName>
+        <ActivityDate>2014-11-10T07:39:41.520</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>887</ActivityTypeNumber>
+        <ActivityTypeID>PCIU</ActivityTypeID>
+        <ActivityTypeName>Potential Claim Information Updated</ActivityTypeName>
+        <ActivityDate>2014-11-03T13:56:04</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>887</ActivityTypeNumber>
+        <ActivityTypeID>PCIU</ActivityTypeID>
+        <ActivityTypeName>Potential Claim Information Updated</ActivityTypeName>
+        <ActivityDate>2014-11-03T13:56:06</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>887</ActivityTypeNumber>
+        <ActivityTypeID>PCIU</ActivityTypeID>
+        <ActivityTypeName>Potential Claim Information Updated</ActivityTypeName>
+        <ActivityDate>2014-11-07T12:38:34</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>887</ActivityTypeNumber>
+        <ActivityTypeID>PCIU</ActivityTypeID>
+        <ActivityTypeName>Potential Claim Information Updated</ActivityTypeName>
+        <ActivityDate>2014-11-07T12:39:22</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>887</ActivityTypeNumber>
+        <ActivityTypeID>PCIU</ActivityTypeID>
+        <ActivityTypeName>Potential Claim Information Updated</ActivityTypeName>
+        <ActivityDate>2014-11-07T12:41:13</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>887</ActivityTypeNumber>
+        <ActivityTypeID>PCIU</ActivityTypeID>
+        <ActivityTypeName>Potential Claim Information Updated</ActivityTypeName>
+        <ActivityDate>2014-11-07T12:41:19</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>999</ActivityTypeNumber>
+        <ActivityTypeID>FIN</ActivityTypeID>
+        <ActivityTypeName>Completed</ActivityTypeName>
+        <ActivityDate>2014-11-03T13:54:40.990</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>875</ActivityTypeNumber>
+        <ActivityTypeID>RVA</ActivityTypeID>
+        <ActivityTypeName>Revenue Adjustment</ActivityTypeName>
+        <ActivityDate>2014-12-09T13:23:18.103</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>875</ActivityTypeNumber>
+        <ActivityTypeID>RVA</ActivityTypeID>
+        <ActivityTypeName>Revenue Adjustment</ActivityTypeName>
+        <ActivityDate>2014-12-09T13:23:18.100</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>875</ActivityTypeNumber>
+        <ActivityTypeID>RVA</ActivityTypeID>
+        <ActivityTypeName>Revenue Adjustment</ActivityTypeName>
+        <ActivityDate>2014-12-09T13:23:18.100</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>875</ActivityTypeNumber>
+        <ActivityTypeID>RVA</ActivityTypeID>
+        <ActivityTypeName>Revenue Adjustment</ActivityTypeName>
+        <ActivityDate>2014-12-09T13:23:18.097</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>875</ActivityTypeNumber>
+        <ActivityTypeID>RVA</ActivityTypeID>
+        <ActivityTypeName>Revenue Adjustment</ActivityTypeName>
+        <ActivityDate>2014-12-09T13:23:18.093</ActivityDate>
+        <ActivityNote />
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>849</ActivityTypeNumber>
+        <ActivityTypeID>STSWEC</ActivityTypeID>
+        <ActivityTypeName>Key Info Change - Window End</ActivityTypeName>
+        <ActivityDate>2014-10-30T18:53:18.673</ActivityDate>
+        <ActivityNote>Before: 20:00:00 / After: 17:00:00</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>849</ActivityTypeNumber>
+        <ActivityTypeID>STSWEC</ActivityTypeID>
+        <ActivityTypeName>Key Info Change - Window End</ActivityTypeName>
+        <ActivityDate>2014-10-21T19:23:12.967</ActivityDate>
+        <ActivityNote>Before: 16:00:00 / After: 20:00:00</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>848</ActivityTypeNumber>
+        <ActivityTypeID>STSWSC</ActivityTypeID>
+        <ActivityTypeName>Key Info Change - Window Start</ActivityTypeName>
+        <ActivityDate>2014-10-30T18:53:18.610</ActivityDate>
+        <ActivityNote>Before: 08:00:00 / After: 13:00:00</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>848</ActivityTypeNumber>
+        <ActivityTypeID>STSWSC</ActivityTypeID>
+        <ActivityTypeName>Key Info Change - Window Start</ActivityTypeName>
+        <ActivityDate>2014-10-21T19:23:12.883</ActivityDate>
+        <ActivityNote>Before: 11:00:00 / After: 08:00:00</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>843</ActivityTypeNumber>
+        <ActivityTypeID>STSSDC</ActivityTypeID>
+        <ActivityTypeName>Key Info Change - Schedule Date</ActivityTypeName>
+        <ActivityDate>2014-10-30T18:53:18.677</ActivityDate>
+        <ActivityNote>Before: 2014-10-31 20:00:00 / After: 2014-10-31 17:00:00</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>843</ActivityTypeNumber>
+        <ActivityTypeID>STSSDC</ActivityTypeID>
+        <ActivityTypeName>Key Info Change - Schedule Date</ActivityTypeName>
+        <ActivityDate>2014-10-21T19:23:12.970</ActivityDate>
+        <ActivityNote>Before: 1900-01-01 00:00:00 / After: 2014-10-31 20:00:00</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>842</ActivityTypeNumber>
+        <ActivityTypeID>STSRDC</ActivityTypeID>
+        <ActivityTypeName>Key Info Change - Ready Date</ActivityTypeName>
+        <ActivityDate>2014-10-20T15:41:53.177</ActivityDate>
+        <ActivityNote>Before: 2014-10-24 00:00:00 / After: 2014-10-21 00:00:00</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>841</ActivityTypeNumber>
+        <ActivityTypeID>STSDDC</ActivityTypeID>
+        <ActivityTypeName>Key Info Change - Delivery Date</ActivityTypeName>
+        <ActivityDate>2014-10-20T15:41:53.340</ActivityDate>
+        <ActivityNote>Before: 2014-11-03 23:59:00 / After: 2014-10-29 23:59:00</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>836</ActivityTypeNumber>
+        <ActivityTypeID>STSCAC</ActivityTypeID>
+        <ActivityTypeName>Key Info Change - Consignee Address</ActivityTypeName>
+        <ActivityDate>2014-10-21T19:23:12.643</ActivityDate>
+        <ActivityNote>
+          Before: 310-000-5555
+          / After: 310-555-5555
+        </ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>650</ActivityTypeNumber>
+        <ActivityTypeID>OFD</ActivityTypeID>
+        <ActivityTypeName>Out For Delivery</ActivityTypeName>
+        <ActivityDate>2014-10-31T10:49:19.280</ActivityDate>
+        <ActivityNote>ar</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>570</ActivityTypeNumber>
+        <ActivityTypeID>DTA</ActivityTypeID>
+        <ActivityTypeName>Delivered to Agent - Last MAWB</ActivityTypeName>
+        <ActivityDate>2014-10-27T17:35:24.690</ActivityDate>
+        <ActivityNote>(LAX) POD: Omer Przemo</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>550</ActivityTypeNumber>
+        <ActivityTypeID>OH</ActivityTypeID>
+        <ActivityTypeName>On Hand - Last MAWB</ActivityTypeName>
+        <ActivityDate>2014-10-26T16:55:04.897</ActivityDate>
+        <ActivityNote>(LAX) </ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>540</ActivityTypeNumber>
+        <ActivityTypeID>OBLM</ActivityTypeID>
+        <ActivityTypeName>On Board - Last MAWB</ActivityTypeName>
+        <ActivityDate>2014-10-23T03:20:03.200</ActivityDate>
+        <ActivityNote>(CLT) </ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>415</ActivityTypeNumber>
+        <ActivityTypeID>RCVC</ActivityTypeID>
+        <ActivityTypeName>Received by Carrier - First MAWB</ActivityTypeName>
+        <ActivityDate>2014-10-22T21:35:01.983</ActivityDate>
+        <ActivityNote>(CLT) </ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>350</ActivityTypeNumber>
+        <ActivityTypeID>POP</ActivityTypeID>
+        <ActivityTypeName>Initial Pick-Up Completed</ActivityTypeName>
+        <ActivityDate>2014-10-21T17:14:57.150</ActivityDate>
+        <ActivityNote>mark</ActivityNote>
+      </Activity>
+      <Activity>
+        <ActivityTypeNumber>320</ActivityTypeNumber>
+        <ActivityTypeID>DFP</ActivityTypeID>
+        <ActivityTypeName>Dispatched for Pickup</ActivityTypeName>
+        <ActivityDate>2014-10-20T16:01:25.343</ActivityDate>
+        <ActivityNote>MARK</ActivityNote>
+      </Activity>
+    </Activities>
+    <Exceptions>
+      <Exception>
+        <ExceptionTypeID>Z03</ExceptionTypeID>
+        <ExceptionTypeName>CUSTOMER REQUESTS DELIVERY AT LATER TIME</ExceptionTypeName>
+        <ExceptionDate>2014-10-21T19:23:13.183</ExceptionDate>
+        <ExceptionNote>Min First Avail = 29 Oct 2014 / Deliver Date = 29 Oct 2014 / Schedule Date = 31 Oct 2014</ExceptionNote>
+      </Exception>
+      <Exception>
+        <ExceptionTypeID>D6</ExceptionTypeID>
+        <ExceptionTypeName>DAMAGED FREIGHT - OSD</ExceptionTypeName>
+        <ExceptionDate>2014-11-03T13:54:47.573</ExceptionDate>
+        <ExceptionNote>Close Type Damaged - Rejeccted entered</ExceptionNote>
+      </Exception>
+      <Exception>
+        <ExceptionTypeID>Resched-WindowNarrow</ExceptionTypeID>
+        <ExceptionTypeName>Reschedule Reason - Window Narrowing</ExceptionTypeName>
+        <ExceptionDate>2014-10-30T18:53:18.680</ExceptionDate>
+        <ExceptionNote />
+      </Exception>
+    </Exceptions>
+    <Charges>
+      <Charge>
+        <ChargeID>81111168</ChargeID>
+        <ChargeTypeID>A1</ChargeTypeID>
+        <ChargeTypeName>Freight Charge</ChargeTypeName>
+        <ChargeCategory>Freight</ChargeCategory>
+        <ChargeTypeFactorID>S</ChargeTypeFactorID>
+        <ChargeTypeFactorName>System</ChargeTypeFactorName>
+        <ChargeRate>0.0000</ChargeRate>
+        <ChargeValue>0.0000</ChargeValue>
+        <ChargeMin>0.0000</ChargeMin>
+        <ChargeAmount>0.00</ChargeAmount>
+      </Charge>
+      <Charge>
+        <ChargeID>81111169</ChargeID>
+        <ChargeTypeID>C002</ChargeTypeID>
+        <ChargeTypeName>Declared Value </ChargeTypeName>
+        <ChargeCategory>Insurance</ChargeCategory>
+        <ChargeTypeFactorID>D</ChargeTypeFactorID>
+        <ChargeTypeFactorName>Declared Value</ChargeTypeFactorName>
+        <ChargeRate>2.4000</ChargeRate>
+        <ChargeValue>4500.0000</ChargeValue>
+        <ChargeMin>50.0000</ChargeMin>
+        <ChargeAmount>108.00</ChargeAmount>
+      </Charge>
+      <Charge>
+        <ChargeID>81111170</ChargeID>
+        <ChargeTypeID>C022</ChargeTypeID>
+        <ChargeTypeName>Fuel Surcharge</ChargeTypeName>
+        <ChargeCategory>Fuel</ChargeCategory>
+        <ChargeTypeFactorID>U</ChargeTypeFactorID>
+        <ChargeTypeFactorName>Fuel Sensitive</ChargeTypeFactorName>
+        <ChargeRate>0.0000</ChargeRate>
+        <ChargeValue>0.0000</ChargeValue>
+        <ChargeMin>0.0000</ChargeMin>
+        <ChargeAmount>0.00</ChargeAmount>
+      </Charge>
+      <Charge>
+        <ChargeID>81111171</ChargeID>
+        <ChargeTypeID>C331</ChargeTypeID>
+        <ChargeTypeName>Beyond Origin - Ground</ChargeTypeName>
+        <ChargeCategory>Transport</ChargeCategory>
+        <ChargeTypeFactorID>W</ChargeTypeFactorID>
+        <ChargeTypeFactorName>Weight</ChargeTypeFactorName>
+        <ChargeRate>0.0000</ChargeRate>
+        <ChargeValue>0.0000</ChargeValue>
+        <ChargeMin>30.0000</ChargeMin>
+        <ChargeAmount>0.00</ChargeAmount>
+      </Charge>
+    </Charges>
+    <ChargesSummary>
+      <Freight>0.00</Freight>
+      <Fuel>0.00</Fuel>
+      <Insurance>108.00</Insurance>
+      <Transport>0.00</Transport>
+      <Delivery>0.00</Delivery>
+      <Service>0.00</Service>
+      <Other>0.00</Other>
+      <TotalCharges>31.29</TotalCharges>
+    </ChargesSummary>
+    <TextInfo>
+      <PubNotes>
+        <PubNote>
+          <PubNoteID>109203032</PubNoteID>
+          <PubNoteInsertDate>2014-11-03T13:57:54.747</PubNoteInsertDate>
+          <PubNoteText>
+
+            From: Juuso Gala
+            Sent: Monday, November 03, 2014 1:58 PM
+            To: SampleCustomer@Example.com
+            Subject: BOLSummary: BOL: K10000000
+            Importance: High
+
+            Good afternoon,
+
+            We have been notified of a damage issue with your chair on order K10000000.  Customer refused the order because of a dirt stain on the arm of the chair.
+
+            To expedite the claims process I have attached the appropriate documents above. Please complete these documents and send it back to our Claims department claimsgroup@mfscorporate.com or fax number 651-695-7172.
+
+            We regret the inconvenience and delay this has caused.
+            Juuso Gala
+            Message Date/Time:              Nov  3 2014  1:56PM
+            BOL #:                  K10000000
+            Reference #:                    RefMum
+            PO #:                                   PONum
+            RMA #:                          RMANum
+            Sales Order #:                  SONum
+            Shipper Information:
+            Sample Shipper
+            1760 Easy Autumn Maze
+            Taylorsville, NC  28681   US
+            Consignee Information:
+            Argyros Albinus
+            9893 Gentle Dale Alley
+            Irvine, CA  92603   US
+            Ready Date:             Oct 21, 2014
+            Service Requested:      R
+            Deliver Date:           Oct 29, 2014
+            Pieces:                 4
+            Weight:                 360
+            StatusInfo:
+            Status Type                | Date                  | Notes
+            ---------------------------|-----------------------|--------------------
+            A5 - Dispatched for Pick-Up | Oct 20 2014  4:01PM   | MARK
+            B1 - Proof of Pickup       | Oct 21 2014  5:15PM   | mark
+            C0 - Received by Carrier   | Oct 22 2014 10:02PM   | (CLT)
+            C1 - On Board              | Oct 23 2014  4:01AM   | (CLT)
+            C1l - Terminal Arrival      | Oct 23 2014  7:59AM   | (ATL)
+            C2 - On Hand               | Oct 26 2014  5:20PM   | (LAX)
+            C3 - Delivered to Agent    | Oct 27 2014 12:02PM   | (LAX) POD: Iser Evander
+            T1 - Out for Delivery      | Oct 31 2014  8:49AM   | ar
+          </PubNoteText>
+        </PubNote>
+      </PubNotes>
+    </TextInfo>
+  </Shipment>
+</StatusTransmission>

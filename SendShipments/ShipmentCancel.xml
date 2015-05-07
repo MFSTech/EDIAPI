@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!-- Shipment Cancellation Example - Ver 002 - 2013-05-22 -->
+
+<!DOCTYPE Shipment SYSTEM "http://EDI.MFSClarity.com/EDI/Cust/ShipmentCancel.dtd">
+
+	<Shipment>
+
+		<CustTransmissionID>1234</CustTransmissionID>
+		<UserName>ACMEComp</UserName>
+		<Password>CompACME</Password>
+		<MFSID></MFSID>
+		<MFSTextID>H1234568</MFSTextID>
+		<Process>NOW+CANCEL</Process>
+
+	</Shipment>

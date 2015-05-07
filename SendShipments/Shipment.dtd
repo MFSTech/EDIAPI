@@ -1,0 +1,178 @@
+<!ELEMENT Shipment (
+
+	UserName?,
+	Password?,
+
+	CustTransmissionID?,
+
+	CustTrackingNum?,
+
+	CustID,
+	BillID,
+
+	MFSID?,
+	MFSTextID?,
+
+	Process?,
+
+	SvcType,
+	ReadyDate,
+	DeliverDate?,
+	ScheduleDate?,
+
+	ShipmentType,
+	ShipmentDirection,
+	WindowBegin?,
+	WindowEnd?,
+
+	PONum?,
+	BOLNum?,
+	RMANum?,
+
+	SpecInst?,
+	PkgDesc?,
+	CODType?,
+	CODAmount?,
+
+	ShipID?,
+	ShipName,
+	ShipContact,
+	ShipAdd1,
+	ShipAdd2,
+	ShipCity,
+	ShipState,
+	ShipZIP,
+	ShipRegion?,
+	ShipCountry,
+	ShipPhone,
+	ShipFax?,
+	ShipHome?,
+	ShipMobile?,
+	ShipEmergency?,
+	ShipOther?,
+	ShipEmail?,
+	ShipLocType?,
+	
+	ConsID?,
+	ConsName,
+	ConsContact,
+	ConsAdd1,
+	ConsAdd2,
+	ConsCity,
+	ConsState,
+	ConsZIP,
+	ConsRegion?,
+	ConsCountry,
+	ConsPhone,
+	ConsFax?,
+	ConsHome?,
+	ConsMobile?,
+	ConsEmergency?,
+	ConsOther?,
+	ConsEmail?,
+	ConsLocType?,
+
+	Piece+,
+
+	CtrlNum*,
+
+	ExtraSvc*
+
+)>
+
+<!ELEMENT UserName (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+
+<!ELEMENT CustTransmissionID (#PCDATA)>
+
+<!ELEMENT CustTrackingNum (#PCDATA)>
+
+<!ELEMENT CustID (#PCDATA)>
+<!ELEMENT BillID (#PCDATA)>
+
+<!ELEMENT MFSID (#PCDATA)>
+<!ELEMENT MFSTextID (#PCDATA)>
+
+<!ELEMENT Process (#PCDATA)>
+
+<!ELEMENT SvcType (#PCDATA)>
+<!ELEMENT ReadyDate (#PCDATA)>
+<!ELEMENT DeliverDate (#PCDATA)>
+<!ELEMENT ScheduleDate (#PCDATA)>
+
+<!ELEMENT ShipmentType (#PCDATA)>
+<!ELEMENT ShipmentDirection (#PCDATA)>
+<!ELEMENT WindowBegin (#PCDATA)>
+<!ELEMENT WindowEnd (#PCDATA)>
+
+<!ELEMENT PONum (#PCDATA)>
+<!ELEMENT BOLNum (#PCDATA)>
+<!ELEMENT RMANum (#PCDATA)>
+
+<!ELEMENT SpecInst (#PCDATA)>
+<!ELEMENT PkgDesc (#PCDATA)>
+<!ELEMENT CODType (#PCDATA)>
+<!ELEMENT CODAmount (#PCDATA)>
+
+<!ELEMENT ShipID (#PCDATA)>
+<!ELEMENT ShipName (#PCDATA)>
+<!ELEMENT ShipContact (#PCDATA)>
+<!ELEMENT ShipAdd1 (#PCDATA)>
+<!ELEMENT ShipAdd2 (#PCDATA)>
+<!ELEMENT ShipCity (#PCDATA)>
+<!ELEMENT ShipState (#PCDATA)>
+<!ELEMENT ShipZIP (#PCDATA)>
+<!ELEMENT ShipRegion (#PCDATA)>
+<!ELEMENT ShipCountry (#PCDATA)>
+<!ELEMENT ShipPhone (#PCDATA)>
+<!ELEMENT ShipFax (#PCDATA)>
+<!ELEMENT ShipHome (#PCDATA)>
+<!ELEMENT ShipMobile (#PCDATA)>
+<!ELEMENT ShipEmergency (#PCDATA)>
+<!ELEMENT ShipOther (#PCDATA)>
+<!ELEMENT ShipEmail (#PCDATA)>
+<!ELEMENT ShipLocType (#PCDATA)>
+
+<!ELEMENT ConsID (#PCDATA)>
+<!ELEMENT ConsName (#PCDATA)>
+<!ELEMENT ConsContact (#PCDATA)>
+<!ELEMENT ConsAdd1 (#PCDATA)>
+<!ELEMENT ConsAdd2 (#PCDATA)>
+<!ELEMENT ConsCity (#PCDATA)>
+<!ELEMENT ConsState (#PCDATA)>
+<!ELEMENT ConsZIP (#PCDATA)>
+<!ELEMENT ConsRegion (#PCDATA)>
+<!ELEMENT ConsCountry (#PCDATA)>
+<!ELEMENT ConsPhone (#PCDATA)>
+<!ELEMENT ConsFax (#PCDATA)>
+<!ELEMENT ConsHome (#PCDATA)>
+<!ELEMENT ConsMobile (#PCDATA)>
+<!ELEMENT ConsEmergency (#PCDATA)>
+<!ELEMENT ConsOther (#PCDATA)>
+<!ELEMENT ConsEmail (#PCDATA)>
+<!ELEMENT ConsLocType (#PCDATA)>
+
+<!ELEMENT Piece (Pieces, ProdID?, ProdName?, ProdDesc?, ProdType, PieceLength?, PieceWidth?, PieceHeight?, PieceWeightActual, PieceDecVal, PiecePrep?, PieceSTC?)>
+
+<!ELEMENT Pieces (#PCDATA)>
+<!ELEMENT ProdID (#PCDATA)>
+<!ELEMENT ProdName (#PCDATA)>
+<!ELEMENT ProdDesc (#PCDATA)>
+<!ELEMENT ProdType (#PCDATA)>
+<!ELEMENT PieceLength (#PCDATA)>
+<!ELEMENT PieceWidth (#PCDATA)>
+<!ELEMENT PieceHeight (#PCDATA)>
+<!ELEMENT PieceWeightActual (#PCDATA)>
+<!ELEMENT PieceDecVal (#PCDATA)>
+<!ELEMENT PiecePrep (#PCDATA)>
+<!ELEMENT PieceSTC (#PCDATA)>
+
+<!ELEMENT CtrlNum (CtrlNumType, CtrlNumValue)>
+
+<!ELEMENT CtrlNumType (#PCDATA)>
+<!ELEMENT CtrlNumValue (#PCDATA)>
+
+<!ELEMENT ExtraSvc (ExtraSvcType, ExtraSvcValue)>
+
+<!ELEMENT ExtraSvcType (#PCDATA)>
+<!ELEMENT ExtraSvcValue (#PCDATA)>
