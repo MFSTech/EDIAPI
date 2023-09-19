@@ -3,7 +3,7 @@ EDI API
 
 General overview for all EDI (Electronic Data Interchange) systems.
 
-You can also follow us on Twitter [@MFSTech](http://twitter.com/MFSTech).
+These are not ANSI X.12 EDI, but rather XML over HTTPS.
 
 Customers
 ---------
